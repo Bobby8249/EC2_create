@@ -35,12 +35,15 @@ galaxy_info:
   #   - all
 
     # List tags for your role here, one per line. A tag is a keyword that describes
-  galaxy_tags: []
+  galaxy_tags:
+          - aws
+          - cloud
+          - amazon
     # and categorizes the role. Users find roles by searching for tags. Be sure to
     # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
     #       Maximum 20 tags per role.
-
-dependencies:  
+allow_duplicates: true
+dependencies: [] 
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
   # var_files:
   #       - vars/secure.yml
